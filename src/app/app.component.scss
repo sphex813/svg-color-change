@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+
+  &--green {
+    color: #00c400;
+  }
+
+  &--primary-color {
+    color: #7a0088;
+  }
+
+  &__icon {
+    flex: 1;
+
+    &--blue{
+      color: #0062e0;
+    }
+
+    &--orange{
+      color: #ffad1d;
+    }
+  }
+}
