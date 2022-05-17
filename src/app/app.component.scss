@@ -11,7 +11,7 @@
   }
 
   &--primary-color {
-    color: #7a0088;
+    color: var(--primary-color)
   }
 
   &__icon {
